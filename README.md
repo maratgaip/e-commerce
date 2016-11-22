@@ -42,6 +42,10 @@ git remote add parent https://github.com/maratgaip/e-commerce.git
     ``` cd ../ ```
     * check current folder path
     ``` pwd ```
+    * clear screen
+    ``` clear ```
+    * list folder and files
+    ``` clear ```
 
 3. how to use Github software (Github desktop application)
     * commit
