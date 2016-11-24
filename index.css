@@ -2,15 +2,28 @@
     background-color: honeydew;
 }
 .header1,
-.header2,
-.header3,
-.header4,
-.header5,
-.header6,
-.header7 {
-    display: inline-block;
-    color: grey;
-    padding: 3px;
+ .header2,
+ .header3,
+ .header4,
+ .header5,
+ .header6,
+ .header7 {
+     display: inline-block;
+     color: grey;
+     padding: 10px;
+ }
+.header1:hover,
+.header2:hover,
+.header3:hover,
+.header4:hover,
+.header6:hover,
+.header7:hover {
+    color: red;
+    cursor: pointer;
+}
+span:hover {
+    color: red;
+    cursor: pointer;
 }
 span {
     color: green;
@@ -24,7 +37,7 @@ span {
     width: 20px;
 }
 .header5 {
-    margin-left: 92px;
+    margin-left: 290px;
 }
 .nav{
     margin-top: 30px;
@@ -40,14 +53,26 @@ span {
 .nav3 {
     display: inline-block;
 }
+.headphone:hover {
+    cursor: pointer;
+    color: red;
+}
 .nav2 {
     background-color: gainsboro;
     padding: 5px;
-    margin-left: 390px;
+    margin-left: 700px;
 }
 .nav3 {
     background-color: gainsboro;
     padding: 5px;
+}
+.fa-envelope:hover {
+    cursor: pointer;
+    color: deeppink;
+}
+.fa-phone:hover {
+    color: blue;
+    cursor: pointer;
 }
 .support {
     color: green;
@@ -71,17 +96,31 @@ span {
     display: inline-block;
     font-weight: bold;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 40px;
+}
+.line1:hover,
+.line2:hover,
+.line3:hover,
+.line4:hover,
+.line5:hover,
+.line6:hover,
+.line8:hover {
+    cursor: pointer;
+    color: red;
 }
 .search {
     display: inline-block;
+    font-size: 25px;
+}
+.fa-search:hover {
+    cursor: pointer;
+    color: red;
 }
 .fa-search {
     color: white;
     background-color: green;
     font-size: 26px;
     vertical-align: middle;
-    margin-top: -5px;
 }
 input {
     height: 20px;
@@ -93,5 +132,5 @@ input {
     padding: 5px;
 }
 .line7 {
-    margin-left: 70px;
+    margin-left: 250px;
 }
