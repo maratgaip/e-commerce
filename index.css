@@ -1,0 +1,97 @@
+.header {
+    background-color: honeydew;
+}
+.header1,
+.header2,
+.header3,
+.header4,
+.header5,
+.header6,
+.header7 {
+    display: inline-block;
+    color: grey;
+    padding: 3px;
+}
+span {
+    color: green;
+}
+.header6,
+.header7 {
+    background-color: green;
+    color: white;
+}
+.flag {
+    width: 20px;
+}
+.header5 {
+    margin-left: 92px;
+}
+.nav{
+    margin-top: 30px;
+}
+.headphone {
+    float: left;
+    font-size: 30px;
+    margin-right: 10px;
+    color: green;
+}
+.nav1,
+.nav2,
+.nav3 {
+    display: inline-block;
+}
+.nav2 {
+    background-color: gainsboro;
+    padding: 5px;
+    margin-left: 390px;
+}
+.nav3 {
+    background-color: gainsboro;
+    padding: 5px;
+}
+.support {
+    color: green;
+    display: inline-block;
+    margin-right: 10px;
+}
+.support2 {
+    display: inline-block;
+}
+.venedor {
+    margin-bottom: -42px;
+}
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6,
+.line7,
+.line8 {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.search {
+    display: inline-block;
+}
+.fa-search {
+    color: white;
+    background-color: green;
+    font-size: 26px;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+input {
+    height: 20px;
+    margin-bottom: 10px;
+}
+.line8 {
+    background-color:green;
+    color: white;
+    padding: 5px;
+}
+.line7 {
+    margin-left: 70px;
+}
