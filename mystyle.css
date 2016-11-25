@@ -120,20 +120,42 @@ background-color: #7bae21;
 .icon-success {
     color: white;
 }
-
+.glyphicon-earphone{
+    color:#7bae21;
+}
+.glyphicon-globe{
+    color:#7bae21;
+}
+.glyphicon-envelope{
+    color:#7bae21;
+}
 .glyphicon-search{
 color:  white;
 
     background-color:#7bae21 ;
 }
 #txtbox
-{
+{border: 1px solid silver;
     padding-left: 22px;
     font-size:14px;
     height:33px;
-    width:160px;
+    width:155px;
+    padding-top: 2px;
+    display:inline-block;
 }
 #txtbox2
-{
+{border: 1px solid silver;
     height:33px;
+    padding: 8px;
+    margin-bottom:15px;
+    display:inline-block;
+    margin-left:-3px;
+    margin-right: -10px;
+}
+
+.$fkbx{
+border: 1px solid silver;
+    height: 33px;
+
+
 }
