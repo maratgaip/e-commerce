@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title></title>
 
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+
+
     <script
             src="https://code.jquery.com/jquery-3.1.1.js"
             integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
@@ -22,8 +28,8 @@
 
 </head>
 <body>
-<div class="header-container"></div>
-<div class="header-banner1">
+   <div class="header-container"></div>
+      <div class="header-banner1">
             <!-- left side -->
 
                 <button class="btn btn-link" type="submit">
@@ -40,83 +46,123 @@
                 <button class="btn btn-link" type="submit">
                 <span class="menu-icon glyphicon glyphicon-ok"></span> Checkout
                 </button>
-    <div class="navbar-text pull-right">
-    <text>    Welcome visitor you can
-    <a href="#http"> login </a>
-    or
-    <a href="#link"> create an account.</a>
-
-
-
-
-
-
-
-
-            <select id="Money" name="US Dollar">
-                <option value="Kg">US Dollar</option>
-                <option value="Gr">Som</option>
-                <option value="Sp">Euro</option>
-            </select>
-
-
-
-
-            <select id="language" name="English">
-                <option value="Kg">English</option>
-                <option value="Gr">German</option>
-                <option value="Sp">Spanish</option>
-            </select>
-
-
-    </text>
-
-</div>
-</div>
-
-
-
-
-
-
-
-<div class="logo">
-<img src="http://www.newsmartwave.net/wordpress/venedor/default/wp-content/themes/venedor/images/logo/logo.png">
-</div>
-
-<div class="navbar-text pull-right">
-    <div class="container1">
-        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-        + (996) 312 55 55 77</br>
-        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-        + (996) 555 77 77 77</div>
-
-    <div class="container1">
-
-     <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-        venedor_support</br>
-    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-        support@venedor.com
-    </div>
-</div>
-<div class="container3">
-    <nav>
-        <ul>
-      <li><a href="#">FASHION</a></li>
-      <li><a href="#">ELECTRONICS</a></li>
-      <li><a href="#">GIFTS</a></li>
-      <li><a href="#">BOOKS</a></li>
-      <li><a href="#">AT HOME</a></li>
-      <li><a href="#">MUSIC</a></li>
-</li></ul></nav>
         <div class="navbar-text pull-right">
-        <form>
-            <i> <input type="text" name="search" placeholder="Search here"></i>
-        </form>
-</div>
-    <div class="BBS">
-    <img src="http://www.newsmartwave.net/wordpress/venedor/default/wp-content/uploads/sites/2/layerslider/Home-Slider-Green-1/slider_bg_07.jpg" class="ls-bg ls-preloaded">
-</div>
-</div>
+           <text>    Welcome visitor you can
+               <a href="#http"> login </a>
+               or
+               <a href="#link"> create an account.</a>
+
+
+
+
+
+
+
+               <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" title="US Dollar" aria-expanded="false">
+                   <span class="filter-option pull-left">US Dollar
+                   </span>
+                               &nbsp;
+                   <span class="bs-caret">
+                       <span class="caret">
+
+                       </span>
+                   </span>
+               </button>
+
+
+
+
+               <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" title="ENGLISH" aria-expanded="false"><span class="filter-option pull-left">English</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+
+
+
+
+           </text>
+
+         </div>
+   </div>
+
+
+
+
+
+
+
+    <div class="logo">
+               <img src="http://www.newsmartwave.net/wordpress/venedor/default/wp-content/themes/venedor/images/logo/logo.png">
+
+
+      <div class="navbar-text pull-right">
+          <div class="container1">
+              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              + (996) 312 55 55 77</br>
+              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              + (996) 555 77 77 77</br>
+          </div>
+            <div class="container2">
+              <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+              venedor_support</br>
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+              support@venedor.com</br>
+            </div>
+      </div>
+    </div>
+
+
+
+
+
+          <div class="container3">
+                       <nav>
+                          <ul>
+                            <li><a href="#">FASHION</a></li>
+                            <li><a href="#">ELECTRONICS</a></li>
+                            <li><a href="#">GIFTS</a></li>
+                            <li><a href="#">BOOKS</a></li>
+                            <li><a href="#">AT HOME</a></li>
+                            <li><a href="#">MUSIC</a></li>
+                          </ul>
+
+
+
+
+                             <div class="w3-container pull-right">
+                                     <p>
+                                         <button class="w3-btn w3-border">
+                                              <span class="glyphicon glyphicon-shopping-cart icon-success" aria-hidden="true">
+
+                                              </span>
+                                                   0 item(s) - $0.00
+                                         </button>
+                                     </p>
+                             </div>
+
+                            <div class="w4-container pull-right">
+
+
+                               <i>
+                                   <input type="search" name="search" placeholder="Search here" id="txtbox">
+                               </i>
+
+                                       <button class="glyphicon glyphicon-search" id="txtbox2" data-toggle="modal" role="button" aria-hidden="true">
+
+                                       </button>
+
+                            </div>
+
+
+          </div>
+                       </nav>
+
+
+
+   </nav>
+
+
+
+            <div class="BBS">
+                   <img src="http://www.newsmartwave.net/wordpress/venedor/default/wp-content/uploads/sites/2/layerslider/Home-Slider-Green-1/slider_bg_07.jpg" class="ls-bg ls-preloaded">
+            </div>
+
 </body>
 </html>

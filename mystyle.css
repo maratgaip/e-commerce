@@ -29,7 +29,7 @@
     font-size: 13px;
 }
 
-!2English {
+.English {
     border-style: solid;
     border-width: 5px;
     background-color: #7bae21;
@@ -62,20 +62,27 @@ select {border-style: solid;
 
     display:inline-block;
     background-color: #f5f5f5;
-    padding: 10px;
+    padding: 5px 10px 1px 5px;
 }
-
+.container2{
+    border: 1px silver solid;
+    display:inline-block;
+    background-color: #f5f5f5;
+    padding: 5px 10px 1px 5px;
+}
 nav{
 height: 50px;
 }
 nav ul{
+    padding: 0px 0px 0px 150px;
     list-style: none;
 }
 nav ul li a{
     float: left;
     text-decoration: none;
     color:black;
-    padding: 10px 30px;
+    padding-left: 15px;
+    padding-right: 20px;
     font-size: 16px;}
 nav ul li a:hover {
     color: #7bae21;
@@ -93,4 +100,40 @@ input[type=text] {
     background-position: 5px 5px;
     background-repeat: no-repeat;
     padding: 5px 10px 5px 40px;
+
+}
+}
+.search{
+    display:inline-block;
+padding-right: 40px;
+    padding-bottom: 10px;
+padding-left: 10px;
+
+}
+.purchase{
+
+}
+.w3-btn {width:150px;
+background-color: #7bae21;
+
+    display:inline-block;}
+.icon-success {
+    color: white;
+}
+
+.glyphicon-search{
+color:  white;
+
+    background-color:#7bae21 ;
+}
+#txtbox
+{
+    padding-left: 22px;
+    font-size:14px;
+    height:33px;
+    width:160px;
+}
+#txtbox2
+{
+    height:33px;
 }
