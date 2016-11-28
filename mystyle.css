@@ -155,18 +155,25 @@ width: 100%;
     width: 500%;
     margin: 0;
     left: 0;
-    animation: 22s slidy infinite;
+    animation: 50s slidy infinite;
 }
 @keyframes slidy{
     0%{  left: 0%;}
     10%{ left: 0%;}
+    15%{ left: -100%;}
     22%{ left: -100%;}
-    35%{ left: -100%;}
-    42%{ left: -200%;}
-    56%{ left: -200%;}
-    62%{ left: -300%;}
+    30%{ left: -200%;}
+    35%{ left: -200%;}
+    40%{ left: -300%;}
+    45%{ left: -300%;}
+    50%{ left: -400%;}
+    56%{ left: -400%;}
+    60%{ left: -400%;}
+    65%{ left: -300%;}
     71%{ left: -300%;}
-    85%{ left: 0%;}
-    94%{ left: 0%;}
-
+    78%{ left: -200%;}
+    85%{ left: -200%;}
+    90%{ left: -100%;}
+    94%{ left: -100%;}
+    99%{ left: 0;}
 }
