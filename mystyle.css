@@ -176,4 +176,66 @@ width: 100%;
     90%{ left: -100%;}
     94%{ left: -100%;}
     99%{ left: 0;}
+}#navMenu{
+    margin:0;
+    padding: 0;
+}
+
+ #navMenu ul{
+     margin:0;
+     padding: 0;
+     line-height: 28px;
+ }
+ #navMenu li{
+     margin:2px;
+     padding: 1px;
+     list-style: none;
+     float: left;
+     position: relative;
+     background: #7bae21;
+ }
+ #navMenu ul li a{
+     border: 1px solid silver;
+     text-align: center;
+     border: 1px solid silver;
+     text-decoration: none;
+     height: 30px;
+     width: 140px;
+     display: block;
+     color: white;
+     border-radius: 6px;
+
+
+ }
+ #navMenu ul ul{
+     position: absolute;
+     visibility: hidden;
+     top: 31px;
+ }
+ #navMenu ul li:hover ul{
+     visibility: visible;
+
+ }
+ #navMenu li:hover{
+     background: #7bae21;
+ }
+ #navMenu ul li:hover ul li a:hover{
+     background: white;
+     color: black;
+ }
+ #navMenu a:hover{
+     color: black;
+ }
+ #navMenu ul li ul li{
+     display: none;
+ }
+#navMenu ul li:hover ul li{
+    display: block;
+    background: #e5e8ea;
+}
+
+.clearFloat{
+    clear: both;
+    margin: 0;
+    padding: 0;
 }
