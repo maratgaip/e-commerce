@@ -11,7 +11,6 @@
 .glyphicon{color:#7bae21;}
 .icon-success {color: #7bae21;}
 
-.glyphicon-pencil{color: silver;}
 .glyphicon-user{color: silver;}
 .glyphicon-shopping-cart{color: silver;}
 .glyphicon-ok{color: silver;}
@@ -21,30 +20,8 @@
     margin-bottom: 10px;
     margin-left: 160px;
 }
-.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
-    color: greenyellow;
-    background-color: #55eaa9;
-    border-color: #41ad38;
-}
 
-.English {
-    border-style: solid;
-    border-width: 5px;
-    background-color: #7bae21;
-    display:inline-block;
-    border-color: #7bae21;
-    color: white;
-    font-size: 13px;
-}
 
-select {border-style: solid;
-    border-width: 5px;
-    background-color: #7bae21;
-    display:inline-block;
-    border-color: #7bae21;
-    color: white;
-    font-size: 13px;
-}
 
 .container1{
     border: 1px silver solid;
@@ -89,11 +66,7 @@ input[type=text] {
     background-repeat: no-repeat;
     padding: 5px 10px 5px 40px;
 }
-.search{
-    display:inline-block;
-padding-right: 40px;
-    padding-bottom: 10px;
-padding-left: 10px;
+
 }
 .purchase{
 }
@@ -193,17 +166,18 @@ width: 100%;
      float: left;
      position: relative;
      background: #7bae21;
+     border-radius: 6px;
  }
  #navMenu ul li a{
      border: 1px solid silver;
      text-align: center;
+     border-radius: 6px;
      border: 1px solid silver;
      text-decoration: none;
      height: 30px;
      width: 140px;
      display: block;
      color: white;
-     border-radius: 6px;
 
 
  }
@@ -218,6 +192,7 @@ width: 100%;
  }
  #navMenu li:hover{
      background: #7bae21;
+     border-radius: 6px;
  }
  #navMenu ul li:hover ul li a:hover{
      background: white;
@@ -231,7 +206,7 @@ width: 100%;
  }
 #navMenu ul li:hover ul li{
     display: block;
-    background: #e5e8ea;
+    background: #eaeaea;
 }
 
 .clearFloat{
