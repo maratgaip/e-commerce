@@ -109,7 +109,6 @@ text-align: center;
     padding-top: 100px;
     width: 20%;
     color: white;
-    font-family: "lato";
 }
 .slider{
     overflow: hidden;
@@ -195,8 +194,8 @@ width: 100%;
      border-radius: 6px;
  }
  #navMenu ul li:hover ul li a:hover{
-     background: white;
-     color: black;
+     background: #7bae21;
+     color: white;
  }
  #navMenu a:hover{
      color: black;
@@ -213,4 +212,50 @@ width: 100%;
     clear: both;
     margin: 0;
     padding: 0;
+}
+
+.down-bar{
+    height: 205px;
+    weight: 200px;
+    background-color: white;
+}
+.down-bar2{
+    height: 105px;
+    widtht: auto;
+    background-color: #7bae21;
+    color:#444645;
+
+}
+.down-bar3{
+    height: 405px;
+    widtht: 100%;
+    background-color: #444645;
+color: white;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.one{
+    box-sizing: border-box;
+    color: silver;
+    width: 255px;
+    height: 205px;
+    vertical-align: baseline;
+    float: left;
+    display: inline-block;
+    margin: 10px;
+    padding:0;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.one ul li{
+    margin-left: -25px;
+}
+.one ul li a{
+    color: silver;
+}
+.Zero{margin-left: 140px;
+
 }
