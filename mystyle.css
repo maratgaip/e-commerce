@@ -1,11 +1,11 @@
 .header-container{
     height: 5px;
-    weight: 200px;
+    width: 200px;
     background-color: #7bae21;
 }
 .header-banner1{
     border: 1px solid #f5f5f5;
-    padding: 5px 0px 5px 160px;
+    padding: 5px 0 5px 160px;
     background-color: #f5f5f5;
 }
 .glyphicon{color:#7bae21;}
@@ -14,15 +14,11 @@
 .glyphicon-user{color: silver;}
 .glyphicon-shopping-cart{color: silver;}
 .glyphicon-ok{color: silver;}
-
 .logo{
     margin-top: 40px;
     margin-bottom: 10px;
     margin-left: 160px;
 }
-
-
-
 .container1{
     border: 1px silver solid;
     display:inline-block;
@@ -39,7 +35,7 @@ nav{
 height: 50px;
 }
 nav ul{
-    padding: 0px 0px 0px 150px;
+    padding: 0 0 0 150px;
     list-style: none;
 }
 nav ul li a{
@@ -67,7 +63,7 @@ input[type=text] {
     padding: 5px 10px 5px 40px;
 }
 
-}
+
 .purchase{
 }
 .w3-btn {width:150px;
@@ -78,13 +74,12 @@ background-color: #7bae21;}
 .icon-success {
     color: #7bae21;
 }
-
 .glyphicon-search{
 color:  white;
 background-color:#7bae21 ;
 }
-#txtbox
-{border: 1px solid silver;
+#txtbox{
+    border: 1px solid silver;
     padding-left: 22px;
     font-size:14px;
     height:33px;
@@ -92,8 +87,8 @@ background-color:#7bae21 ;
     padding-top: 2px;
     display:inline-block;
 }
-#txtbox2
-{border: 1px solid silver;
+#txtbox2{
+    border: 1px solid silver;
     height:33px;
     padding: 8px;
     margin-bottom:15px;
@@ -130,8 +125,8 @@ width: 100%;
     animation: 50s slidy infinite;
 }
 @keyframes slidy{
-    0%{  left: 0%;}
-    10%{ left: 0%;}
+    0%{  left: 0;}
+    10%{ left: 0;}
     15%{ left: -100%;}
     22%{ left: -100%;}
     30%{ left: -200%;}
@@ -148,11 +143,11 @@ width: 100%;
     90%{ left: -100%;}
     94%{ left: -100%;}
     99%{ left: 0;}
-}#navMenu{
+}
+#navMenu{
     margin:0;
     padding: 0;
 }
-
  #navMenu ul{
      margin:0;
      padding: 0;
@@ -171,15 +166,12 @@ width: 100%;
      border: 1px solid silver;
      text-align: center;
      border-radius: 6px;
-     border: 1px solid silver;
      text-decoration: none;
      height: 30px;
      width: 140px;
      display: block;
      color: #444645;
-
-
- }
+}
  #navMenu ul ul{
      position: absolute;
      visibility: hidden;
@@ -216,22 +208,21 @@ width: 100%;
 
 .down-bar{
     height: 205px;
-    weight: 200px;
+    width: 200px;
     background-color: white;
 }
 .down-bar2{
     height: 105px;
-    widtht: auto;
+    width: auto;
     background-color: #7bae21;
     color:#444645;
 
 }
 .down-bar3{
     height: 405px;
-    widtht: 100%;
+    width: 100%;
     background-color: #444645;
-color: white;
-    margin-right: auto;
+    color: white;
     margin: 0;
     padding: 0;
     border: 0;
@@ -255,12 +246,10 @@ color: white;
 }
 .one ul li a{
     color: silver;
-    text-decoration: none;
+    text-decoration: none;}
 .one ul li a:hover {
-
-    color: green;
-}
+    color: #779b34;
 }
 .Zero{margin-left: 140px;
-
 }
+
