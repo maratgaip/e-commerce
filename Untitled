@@ -1,0 +1,49 @@
+CSS
+#LG ul li ul{
+    position: absolute;
+}
+#LG{
+    background: green;
+    color: white;
+    padding: 5px;
+}
+#LG ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#LG ul li{
+    float: left;
+}
+#LG ul li a{
+    color: blue;
+    background: silver;
+    padding: 10px;
+    display: block;
+    text-decoration: none;}
+#LG ul li a :hover{
+    background: black;
+    color: red;}
+#LG ul li ul li{
+    float: none;
+}
+.clear{
+    clear: both;
+}
+
+
+HTML
+
+    <div id="LG">
+
+        <ul>
+            <li>
+                <a href="#">English</a>
+              <ul>
+                  <li><a href="#">France</a></li>
+                  <li><a href="#">German</a></li>
+                  <li><a href="#">Spanish</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
