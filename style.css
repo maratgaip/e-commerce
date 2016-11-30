@@ -3,8 +3,8 @@
 body {
     margin: 0 auto;
     padding-left:100px;
-
 }
+
 .horizontal {
     background-color:green;
     width:100%;
@@ -13,7 +13,7 @@ body {
 
 .header {
     float:left;
-    margin-right: 20px;
+
 }
 
 .text {
@@ -29,6 +29,7 @@ body {
 .contact {
     float:right;
     margin-top: 20px;
+    margin-right: 100px;
 }
 
 .nav {
@@ -36,16 +37,24 @@ body {
     margin-top: 20px;
 }
 .mobile{
-    flaot:left;
     border:solid 1px grey;
     background-color: lightgrey;
+    width: 1150px;
 }
-.mobile text {
-    float:right;
+.img-responsive {
+    display:inline-block;
+    margin-left: 100px;
+}
+.text {
     color:grey;
 }
+
 .home {
     margin-top: 10px;
+}
+
+.menu {
+    margin: 10px;
 }
 
 
