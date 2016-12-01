@@ -3,6 +3,8 @@
 body {
     margin: 0 auto;
     padding-left:100px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .horizontal {
@@ -10,7 +12,7 @@ body {
     width:100%;
     height:10px;
 }
-
+-
 .header {
     float:left;
 
@@ -29,7 +31,7 @@ body {
 .contact {
     float:right;
     margin-top: 20px;
-    margin-right: 100px;
+
 }
 
 .nav {
@@ -39,7 +41,7 @@ body {
 .mobile{
     border:solid 1px grey;
     background-color: lightgrey;
-    width: 1150px;
+    width:1200px;
 }
 .img-responsive {
     display:inline-block;
