@@ -1,3 +1,6 @@
+body{
+    max-width:1080px;
+}
 .nav-justified{
     background-color:#F5F5F5;
     height:35px;
