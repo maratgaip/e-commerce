@@ -1,0 +1,26 @@
+body {
+	border-top: solid 5px forestgreen;
+}
+.header {
+	border-bottom: grey solid 1px;
+	margin: auto;
+	background-color: lightgray;
+}
+.wrapper {
+	margin: auto;
+	width: 1920px;
+
+}
+.button {
+	display: inline-block;
+
+}
+.text {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+.top {
+	display: inline-block;
+	margin-right: 60px;
+}
