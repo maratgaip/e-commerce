@@ -1,10 +1,11 @@
 a {
 	text-decoration: none;
-word-spacing: 10px;
+	word-spacing: 10px;
 }
 
 .links {
 	float: left;
+	text-align: center;
 }
 
 p {
@@ -15,3 +16,12 @@ img {
 	margin-left: 200px;
 	float: left;
 }
+button.phone {
+	background-color: white;
+	border: 1px solid lightgrey;
+	margin-left: 4px;
+	float: left;
+	height: 60px;
+	width: 240px;
+}
+
