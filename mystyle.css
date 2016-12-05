@@ -1,6 +1,17 @@
 a {
 	text-decoration: none;
+word-spacing: 10px;
 }
-body {
-	margin-top: 10px;
+
+.links {
+	float: left;
+}
+
+p {
+	float: left;
+}
+
+img {
+	margin-left: 200px;
+	float: left;
 }
