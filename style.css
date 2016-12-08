@@ -8,7 +8,7 @@ hr.menu{
 
 }
 .menu{ background-color:#F5F5F5;
-    height:36px;
+    height:40px;
     width:100%;
 
 }
@@ -18,9 +18,17 @@ hr.menu{
 
 }
 li.menu{
-	width:99px;
-	height:36px;
+	width:100px;
+	
 	padding:0px;
+	margin:0;
+}
+li.menu a{
+	width:97px;
+	color:dimgrey;
+	padding:0%;
+	margin:0;
+	height:10px;
 
 
 }
@@ -51,13 +59,7 @@ div.panel {
 	list-style: none;
 
 }
-.glyphicon-phone-alt{
+.glyphicon-phone-alt, .glyphicon-envelope, .glyphicon-facetime-video {
 	color:#7BAE23;
 }
-.glyphicon-envelope {
-	color:#7BAE23;
-}
-.glyphicon-facetime-video {
-	color:#7BAE23;
-
-}
+ 
