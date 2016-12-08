@@ -1,14 +1,27 @@
 body{
     
 }
+hr.menu{
+	background-color: #7BAE23;
+	height:8px;
+	margin:0px;
+
+}
 .menu{ background-color:#F5F5F5;
-    height:35px;
+    height:36px;
     width:100%;
 
 }
 .nav-justified{
-   width:80%;
+   width:85%;
    margin:auto;
+
+}
+li.menu{
+	width:99px;
+	height:36px;
+	padding:0px;
+
 
 }
 .glyphicon{
@@ -30,11 +43,21 @@ div.panel {
 	padding:0;
 	float:right;
 	margin: 3px;
+	background-color:#F7F7F7;
+
+}
+
+.phone{
+	list-style: none;
 
 }
 .glyphicon-phone-alt{
-	
+	color:#7BAE23;
 }
-.phone{
-	list-style: none;
+.glyphicon-envelope {
+	color:#7BAE23;
+}
+.glyphicon-facetime-video {
+	color:#7BAE23;
+
 }
