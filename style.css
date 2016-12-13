@@ -5,9 +5,10 @@ body {
 	border-bottom: grey solid 1px;
 	margin: auto;
 	background-color: lightgray;
+
 }
 .wrapper {
-	margin: auto;
+
 	width: 1920px;
 
 }
@@ -23,4 +24,65 @@ body {
 .top {
 	display: inline-block;
 	margin-right: 60px;
+
+}
+.nav {
+	height: 220px;
+	border-bottom: grey solid 1px ;
+}
+
+.navtop {
+	display: inline-block;
+	margin-top: 10px;
+}
+.contact {
+	border: grey solid 1px;
+	width: 200px;
+	display: inline-block;
+	background-color: lightgray;
+	margin-left: 410px;
+	margin-top: 80px;
+}
+.contact1 {
+	border: grey solid 1px;
+	width: 200px;
+	display: inline-block;
+	background-color: lightgray;
+
+}
+#number {
+	margin-left: 50px;
+	display: inline-block;
+
+}
+.nav2 {
+	width: 200px;
+	display: inline-block;
+	margin-left: 120px;
+}
+.navbottom {
+	display: inline-block;
+	margin-top: 20px;
+}
+.navlist {
+	display: inline-block;
+}
+.nav3 {
+	display: inline-block;
+	margin-bottom: 20px;
+
+}
+.side {
+	height: 400px;
+	box-shadow: azure;
+	border-bottom: grey solid 1px;
+}
+img {
+	display: inline-block;
+	margin-bottom: 120px;
+}
+#content {
+	display: inline-block;
+
+
 }

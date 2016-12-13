@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
@@ -7,26 +7,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
 <div class="wrapper">
     <div class="header">
-        <div class="top">
-            <button class="btn btn-default" type="submit">
-                <span class="glyphicon glyphicon-pencil" aria-hidden="true">My Wishlist(0)</span>
-            </button>
-            <button class="btn btn-default" type="submit">
-                <span class="glyphicon glyphicon-user" aria-hidden="true">My Account</span>
-            </button>
-            <button class="btn btn-default" type="submit">
-                <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true">Shopping Cart</span>
-            </button>
-            <button class="btn btn-default" type="submit">
-                <span class="glyphicon glyphicon-ok" aria-hidden="true">Checkout</span>
-            </button>
-        </div>
+        <ul class="top">
+            <li class="glyphicon glyphicon-pencil" aria-hidden="true">My Wishlist(0)</li>
+            <li class="glyphicon glyphicon-user" aria-hidden="true">My Account</li>
+            <li class="glyphicon glyphicon-shopping-cart" aria-hidden="true">Shopping Cart</li>
+            <li class="glyphicon glyphicon-ok" aria-hidden="true">Checkout</li>
+        </ul>
         <div class="text">Welcome visitor you can login or create an account</div>
         <div class="button">
             <button type="button" class="btn btn-success">US Dollar</button>
@@ -36,26 +29,60 @@
         </div>
     </div>
     <div class="nav">
-        <img class="venedor" src="http://venedor.promokit.eu/img/venedor-1407440115-1.jpg">
-        <div class="contact">
-            icon
-            +(404) 158 14 25 78
-            +(404) 851 21 48 15
+        <div class="navtop">
+            <img class="venedor" src="http://venedor.promokit.eu/img/venedor-1407440115-1.jpg">
+            <div class="contact">
+                <div id="number">
+                    +(404) 158 14 25 78 <br>
+                    <i class="fa fa-phone" style="font-size:20px;color:green"></i>
+                     +(404) 851 21 48 15
+                </div>
+             </div>
+            <div class="contact1">
+                <i class="fa fa-skype" style="font-size:20px;color:green"></i>
+                venedor_support <br>
+                <i class="fa fa-envelope" style="font-size:20px;color:green"></i>
+                venedor@gmail.com
+            </div>
         </div>
-        <div class="contact1">
-            icon
-            venedor_support
-            icon
-            venedor@gmail.com
+        <div class="navbottom">
+            <div class="navlist">
+                 <button type="button" class="btn btn-default">FASHION</button>
+                 <button type="button" class="btn btn-default">ELECTRONICS</button>
+                 <button type="button" class="btn btn-default">GIFTS</button>
+                 <button type="button" class="btn btn-default">BOOKS</button>
+                 <button type="button" class="btn btn-default">AT HOME</button>
+                 <button type="button" class="btn btn-default">MUSIC</button>
+            </div>
+            <div class="nav2">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                           <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav3">
+                <button type="button" class="btn btn-success">
+                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                    0 item(s) - $0.00
+                </button>
+            </div>
         </div>
-        <ul class="navlist">
-            <li>FASHION</li>
-            <li>ELECTRONICS</li>
-            <li>GIFTS</li>
-            <li>BOOKS</li>
-            <li>AT HOME</li>
-            <li>MUSIC</li>
-        </ul>
+    </div>
+    <div class="side">
+        <img src="http://3dvision-blog.com/wp-content/uploads/2012/02/lg_optimus_3d_max.jpg" width="300px" height="25
+        4   0px">
+        <div id="content">
+            <h1>Mobile</h1><br>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>
+               when an unknown printer took a galley of type and scrambled it to make a type<br>
+               specimen book. It has survived not only five centuries, but also the leap into<br>
+               electronic typesetting, remaining essentially unchanged.</p><br>
+            <button type="button" class="btn btn-success">LEARN MORE</button>
+        </div>
     </div>
 
 
