@@ -62,5 +62,7 @@ body {
 .pagination {
     float:right;
 }
-
+.product{
+    display:inline-block;
+}
 
