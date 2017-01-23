@@ -65,4 +65,8 @@ body {
 .product{
     display:inline-block;
 }
-
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
