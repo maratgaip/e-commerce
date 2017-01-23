@@ -66,9 +66,6 @@ body {
     width: 33%;
     text-align: center;
 }
-ul {
-    list-style: none;
- }
 .content {
     width: 940px;
     float: left;
@@ -78,6 +75,19 @@ ul {
     float: right;
 }
 
+.prefooter{
+    border:solid 2px #0FB532  ;
+    background-color: #0FB532  ;
+    width:97%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color:lightgreen;
+}
 .myaccount {
     display: inline-block;
+    background-color: grey;
+    color:white;
+   width:32%;
+
 }
