@@ -77,3 +77,7 @@ ul {
     width: 200px;
     float: right;
 }
+
+.myaccount {
+    display: inline-block;
+}
