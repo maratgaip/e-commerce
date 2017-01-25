@@ -93,11 +93,16 @@ body {
 .prefooter{
     border:solid 2px #0FB532  ;
     background-color: #0FB532  ;
-    width:97%;
+    width:100%;
     height: 100px;
     text-align: center;
     line-height: 100px;
     color:lightgreen;
+}
+
+.footer {
+    display:flex;
+    background-color: grey;
 }
 .myaccount {
     display: inline-block;
