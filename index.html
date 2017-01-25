@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 <body>
 <div class="horizontal"></div>
@@ -147,41 +149,50 @@
             <div class = "product" id="camera">
                 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQacq3XCU7aCMwjJ9XTRzm_S1ZqTiLFa46NOo0NoaWFirc5P6nmfw" class="img-responsive" alt="Responsive image" width="180px">
                 <h3>Camera <span class="label label-success">New</span></h3>
+                <div class="oval"> $200 </div>
             </div>
             <div class = "product" id="samsung">
                 <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWErIdAoPEWv4N-kN-EUGKmiSLAJO-8VQBlykdtMtCkWWe7sYwGw" class="img-responsive" alt="Responsive image" width="120px">
                 <h3>Phone-Samsung</h3>
+                <div class="oval"> $500 </div>
             </div>
             <div class = "product" id="iphone">
                 <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS7PlcNMOHn8Z9WmYJvhdfIx8Vbr8Krr6S0stfw3kxOb1fzQA9mqQ" class="img-responsive" alt="Responsive image" width="200px">
                 <h3>Iphone</h3>
+                <div class="oval"> $700 </div>
             </div>
             <div class = "product" id="applewatch">
                 <img src="http://www.dhresource.com/260x260s/f2-albu-g4-M00-4B-51-rBVaEVcys4OAWEvYAAEmavCM_H4306.jpg/gt08-smart-watch-android-best-selling-intelligent.jpg" class="img-responsive" alt="Responsive image" width="160px">
                 <h3> Apple Watch <span class="label label-danger"> Best Seller</span></h3>
+                <div class="oval"> 1000 </div>
             </div>
             <div class = "product" id="oldcamera">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Canon_FT_alvesgaspar_new.jpg/220px-Canon_FT_alvesgaspar_new.jpg" class="img-responsive" alt="Responsive image">
                 <h3> Camera </h3>
+                <div class="oval"> $47 </div>
             </div>
             <div class = "product" id= "cam">
                 <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSoOI-ix8M8fm0gZBjFUzr8UwEC3_aoGENLWYKZ2D48FnrzNWn49Q" class="img-responsive" alt="Responsive image">
                 <h3> Security Camera <span class="label label-warning"> Great Deal</span></h3>
+                <div class="oval"> $29 </div>
+            </div>
             </div>
             <div class = "product" id= "headphone">
                 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTO0g3xgZL_nurEuyIRgr8Atb7dnO_RhETHl8ZRnuK09i1kAYJS" class="img-responsive" alt="Responsive image" width="210px">
                 <h3> Headphone <span class="label label-danger"> Best Seller</span></h3>
+                <div class="oval"> $59 </div>
             </div>
             <div class = "product" id="coffeebrew">
                 <img src="http://shop.illy.com/wcsstore7.00.156.258.02/eShop%20US/Attachment/Product/Machines/cuisinart-em600_cappuccino-560.jpg" class="img-responsive" alt="Responsive image" width="200px">
                 <h3>Coffee Brew</h3> <span class="label label-warning"> The Last</span></h3>
+                <div class="oval"> $250 </div>
             </div>
             <div class = "product" id="toaster">
                 <img src="http://besttoasterreview.com/wp-content/uploads/2014/09/Oster-TSSTTRWF4S-4-Slice-Toasterin.jpg" class="img-responsive" alt="Responsive image" width="200px">
                 <h3> Toaster</h3>
+                <div class="oval"> $320 </div>
             </div>
         </div>
-    </div>
     <div class="aside">
         <ul> <h4>Category</h4>
             <li>
@@ -228,36 +239,38 @@
         <button class="btn btn-default" type="submit"> OK </button>
         <button class="btn btn-default" type="submit"> Clear</button>
         <ul> <h4>Color</h4>
-          <svg width="80" height="50">
-            <rect x="50" y="20" width="25" height="25"
-                  style="fill:red;stroke:pink;stroke-width:1;opacity:0.5" />
-          </svg>
-             <svg width="80" height="50">
-                    <rect x="50" y="20" width="25" height="25"
-                  style="fill:yellow;stroke:pink;stroke-width:1;opacity:0.5" />
-             </svg>
-                <svg width="80" height="50">
-                     <rect x="50" y="20" width="25" height="25"
-                  style="fill:green;stroke:pink;stroke-width:1;opacity:0.5" />
-               </svg>
-                     <svg width="80" height="50">
-                          <rect x="50" y="20" width="25" height="25"
-                   style="fill:black;stroke:pink;stroke-width:1;opacity:0.5" />
-                    </svg>
-                       <svg width="80" height="50">
-                        <rect x="50" y="20" width="25" height="25"
-                  style="fill:orange;stroke:pink;stroke-width:1;opacity:0.5" />
-                    </svg>
-                       <svg width="80" height="50">
-                          <rect x="50" y="20" width="25" height="25"
-                        style="fill:blue;stroke:pink;stroke-width:1;opacity:0.5" />
-                       </svg>
+            <svg width="80" height="50">
+                <rect x="50" y="20" width="25" height="25"
+                      style="fill:red;stroke:pink;stroke-width:1;opacity:0.5" />
+            </svg>
+            <svg width="80" height="50">
+                <rect x="50" y="20" width="25" height="25"
+                      style="fill:yellow;stroke:pink;stroke-width:1;opacity:0.5" />
+            </svg>
+            <svg width="80" height="50">
+                <rect x="50" y="20" width="25" height="25"
+                      style="fill:green;stroke:pink;stroke-width:1;opacity:0.5" />
+            </svg>
+            <svg width="80" height="50">
+                <rect x="50" y="20" width="25" height="25"
+                      style="fill:black;stroke:pink;stroke-width:1;opacity:0.5" />
+            </svg>
+            <svg width="80" height="50">
+                <rect x="50" y="20" width="25" height="25"
+                      style="fill:orange;stroke:pink;stroke-width:1;opacity:0.5" />
+            </svg>
+            <svg width="80" height="50">
+                <rect x="50" y="20" width="25" height="25"
+                      style="fill:blue;stroke:pink;stroke-width:1;opacity:0.5" />
+            </svg>
         </ul>
-         <ul> <h4>Size</h4></ul>
+        <ul> <h4>Size</h4></ul>
         <ul> <h4>Weight </h4></ul>
         <ul> <h4>Processor</h4></ul>
 
     </div>
+    </div>
+
 </div>
 <div class="prefooter">
     Lorem ipsum dolor sit amet, consecctecut adicpdig elit, iug allkd;oai klji http://nota.kg
