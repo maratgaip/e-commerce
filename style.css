@@ -66,6 +66,7 @@ body {
     width: 33%;
     text-align: center;
     position: relative;
+    padding: 5px;
 }
 .content {
     width: 900px;
@@ -73,9 +74,9 @@ body {
 }
 .oval {
     border-radius: 100%;
-    padding: 30px 20px;
+    padding: 30px 25px;
     background-color:#5cb85c;;
-    width: 80px;
+    width: 70px;
     text-align: center;
     position: absolute;
     right: 0;
@@ -88,6 +89,7 @@ body {
 .aside {
     width: 200px;
     float: right;
+    margin-top: 10px;
 }
 
 .prefooter{
