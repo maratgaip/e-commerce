@@ -165,11 +165,13 @@ body {
 .footer {
     display:flex;
     background-color: grey;
+    height: 250px;
 }
 .myaccount {
     display: inline-block;
     background-color: grey;
     color:white;
     width:24%;
+    line-height:30px;
 
 }
