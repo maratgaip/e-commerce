@@ -3,6 +3,11 @@
 <head>
 
     <title></title>
+
+    <script    src="https://code.jquery.com/jquery-3.1.1.min.js"
+               integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+               crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
@@ -13,9 +18,12 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="animation.js"></script>
+
 </head>
 <body>
 <div class="horizontal"></div>
+
 <div class="header">
     <button class="btn btn-link" type="submit">
         <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> My Wishlist
@@ -84,45 +92,308 @@
     </div>
 </div>
 
-
-<div class="home">
-    <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">Electronics</a></li>
-        <li role="presentation"><a href="#">Mobile</a></li>
-    </ul>
-</div>
-
-<div class="menu">
-    <button class="btn btn-default" type="submit"> Compare <button>
-        <div>sort by:</div>
-        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Default
-            <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="#">price</a></li>
-            <li><a href="#">size</a></li>
-        </ul>
-        <button type="button" class="btn btn-default btn-lg">
-            <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
-        </button>
-        <button type="button" class="btn btn-default btn-lg">
-            <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
-        </button>
-            <button type="button" class="btn btn-default">View</button>
-            <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-                <li><a href="http://www.vb.kg/">Dropdown link</a></li>
-                <li><a href="http://www.vb.kg/">Dropdown link</a></li>
+<div class="container">
+    <div class="content">
+        <div class="home">
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Electronics</a></li>
+                <li role="presentation"><a href="#">Mobile</a></li>
             </ul>
         </div>
+
+        <div class="menu">
+            <button class="btn btn-default" type="submit"> Compare </button>
+            sort by:
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Default
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">price</a></li>
+                <li><a href="#">size</a></li>
+            </ul>
+            <button type="button" class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default">View</button>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                    <span class="caret"></span>
+                </button>
+
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+
+        <div class = "products">
+            <div class = "product" id="camera">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQacq3XCU7aCMwjJ9XTRzm_S1ZqTiLFa46NOo0NoaWFirc5P6nmfw" class="img-responsive" alt="Responsive image" width="180px">
+                <h3>Camera <span class="label label-success">New</span></h3>
+                <div class="oval"> $200 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+            <div class = "product" id="samsung">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWErIdAoPEWv4N-kN-EUGKmiSLAJO-8VQBlykdtMtCkWWe7sYwGw" class="img-responsive" alt="Responsive image" width="120px">
+                <h3>Phone-Samsung</h3>
+                <div class="oval"> $500 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+            <div class = "product" id="iphone">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS7PlcNMOHn8Z9WmYJvhdfIx8Vbr8Krr6S0stfw3kxOb1fzQA9mqQ" class="img-responsive" alt="Responsive image" width="200px">
+                <h3>Iphone</h3>
+                <div class="oval">$700 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+            <div class = "product" id="applewatch">
+                <img src="http://www.dhresource.com/260x260s/f2-albu-g4-M00-4B-51-rBVaEVcys4OAWEvYAAEmavCM_H4306.jpg/gt08-smart-watch-android-best-selling-intelligent.jpg" class="img-responsive" alt="Responsive image" width="160px">
+                <h3> Apple Watch <span class="label label-danger"> Best Seller</span></h3>
+                <div class="oval">$499 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+            <div class = "product" id="oldcamera">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Canon_FT_alvesgaspar_new.jpg/220px-Canon_FT_alvesgaspar_new.jpg" class="img-responsive" alt="Responsive image">
+                <h3> Camera </h3>
+                <div class="oval"> $47 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+            <div class = "product" id= "cam">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSoOI-ix8M8fm0gZBjFUzr8UwEC3_aoGENLWYKZ2D48FnrzNWn49Q" class="img-responsive" alt="Responsive image">
+                <h3> Security Camera <span class="label label-danger"> Best Seller</span></h3>
+                <div class="oval"> $29 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+            </div>
+            <div class = "product" id= "headphone">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTO0g3xgZL_nurEuyIRgr8Atb7dnO_RhETHl8ZRnuK09i1kAYJS" class="img-responsive" alt="Responsive image" width="210px">
+                <h3> Headphone <span class="label label-warning"> Great Deal</span></h3>
+                <div class="oval"> $59 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+
+            <div class = "product" id="coffeebrew">
+                <img src="http://shop.illy.com/wcsstore7.00.156.258.02/eShop%20US/Attachment/Product/Machines/cuisinart-em600_cappuccino-560.jpg" class="img-responsive" alt="Responsive image" width="200px">
+                <h3>Coffee Brew</h3> <span class="label label-warning"> The Last</span></h3>
+                <div class="oval"> $250 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+            <div class = "product" id="toaster">
+                <img src="http://besttoasterreview.com/wp-content/uploads/2014/09/Oster-TSSTTRWF4S-4-Slice-Toasterin.jpg" class="img-responsive" alt="Responsive image" width="200px">
+                <h3> Toaster</h3>
+                <div class="oval"> $320 </div>
+                <button type="button" class="btn btn-primary btn-sm">ADD TO CART</button>
+            </div>
+        </div>
+    <div class="aside">
+
+           <h4 class="toggleBar1"> <button type="button">Category</button></h4>
+        <ul id="toggleContent1" class="asideUl">
+            <li>
+                <label>
+                    <input type="checkbox"> Mobile Phones
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Smart Phones
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Communicators
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Accessories
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Charges
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Protectors
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Travelsim
+                </label>
+            </li>
+        </ul>
+        <h4 class="toggleBar2"> <button type="button"> Brand</button> </h4>
+        <ul id="toggleContent2" class="asideUl">
+            <li>
+                <label>
+                    <input type="checkbox"> Chanel
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Prada
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Michael Kors
+                </label>
+            </li>
+        </ul>
+        <h4 class="toggleBar3"> <button type="button"> Price</button></h4>
+        <ul id="toggleContent3" class="asideUl">
+            <div>from
+                <input type="text" style="width: 50px"> to <input type="text" style="width: 50px">
+            </div>
+            <button class="btn btn-default" type="submit"> OK </button>
+            <button class="btn btn-default" type="submit"> Clear</button>
+        </ul>
+        <h4 class="toggleBar4"> <button type="button">Color</button> </h4>
+        <ul id="toggleContent4" class="asideUl">
+            <div class="kvadrat"></div>
+            <div class="kvadrat1"></div>
+            <div class="kvadrat2"></div>
+            <div class="kvadrat3"></div>
+            <div class="kvadrat4"></div>
+            <div class="kvadrat5"></div>
+            <div class="kvadrat6"></div>
+            <div class="kvadrat7"></div>
+
+        </ul>
+        <h4 class="toggleBar5"> <button type="button">Size</button> </h4>
+        <ul id="toggleContent5" class="asideUl">
+            <li>
+                <label>
+                    <input type="checkbox"> XS
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> S
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> M
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> L
+                </label>
+            </li>
+        </ul>
+        <h4 class="toggleBar6"> <button type="button">Weight</button> </h4>
+        <ul id="toggleContent6" class="asideUl">
+            <li>
+                <label>
+                    <input type="checkbox"> 50lb - 500lb
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> 500lb - 1000lb
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Over 1000lb
+                </label>
+            </li>
+        </ul>
+        <h4 class="toggleBar7"> <button type="button">Processor</button> </h4>
+        <ul id="toggleContent7" class="asideUl">
+            <li>
+                <label>
+                    <input type="checkbox"> Expedite
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox"> Regular
+                </label>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+
 </div>
+<div class="prefooter">
+    Lorem ipsum dolor sit amet, consecctecut adicpdig elit, iug allkd;oai klji http://nota.kg
 </div>
+
+<div class="footer">
+ <div class="myaccount">
+     <ul> <h3>My Account</h3>
+    <li>My account</li>
+    <li>Personal information</li>
+    <li>Addresses</li>
+    <li>Discount</li>
+    <li>Orders history</li>
+ </ul>
+     </div>
+  <div class="myaccount">
+    <ul> <h3>Information</h3>
+      <li>New products</li>
+      <li>Top sellers</li>
+      <li>Specials</li>
+      <li>Suppliers</li>
+      <li>Our stores</li>
+   </ul>
+      </div>
+    <div class="myaccount">
+        <ul> <h3>Contact Information</h3>
+        <li>United Kingdom</li>
+        <li>London</li>
+        <li>Oxford Street 48/188</li>
+        <li>Working Days:Mon.-Sun.</li>
+        <li>Working hours: 9:00AM - 8:00PM</li>
+    </ul>
+        </div>
+    <div class="myaccount">
+        <ul> <h3>Facebook</h3>
+            <button type="button" class="btn btn-success">
+                <span class="glyphicon glyphicon-thumbs-up aria-hidden="true"> </span> Like
+            </button>
+         <span> 9678 people like Nota.kg</span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_2DRj5ppiSkYUMizlCoZCkCSJzwNumDDThHXamlxk3qdZLZgRhCRkVw2i" width="70px">
+            <img src="http://s1.dmcdn.net/Lijnm/1280x720-brn.jpg" width="80px">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZoRhiX96GywnhFqacm7m-xB9PiQXvlcwnwU1aWblUGMfYCNBY" width="70px"
+
+        </ul>
+    </div>
+
+</div>
+
+
+
 
 
 </body>
